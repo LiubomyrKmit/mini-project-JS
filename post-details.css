@@ -1,0 +1,40 @@
+body {
+    background: black;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+#post-details {
+    color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#div-comments {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.comment {
+    width: 48%;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+}

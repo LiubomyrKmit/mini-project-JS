@@ -1,0 +1,37 @@
+body {
+    background: black;
+}
+
+#users-container {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.user-block {
+    width: 48%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bolder;
+}
+
+.user-block button {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
